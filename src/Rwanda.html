@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPG</title>
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="body kenya-body">
+        <nav id="nav">
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="" srcset="" >
+            </div>
+            <div class="links">
+                <ul id="links">
+                    <li> <a href="index.html"> Home</a></li>
+                    <li class="dropdown"><a href="#"   class="active">Travel Guide</a>
+                        <ul class="dropdown-content">
+                            <a href="Kenya.html"><li >Kenya</li></a>
+                            <a href="Tanzania.html"><li>Tanzania</li></a>
+                            <a href="Botswana.html"><li >Botswana</li></a>
+                            <a href="SA.html"><li >South Africa</li></a>
+                            <a href="Namibia.html"><li>Namibia</li></a>
+                            <a href="Zambia.html"><li>Zambia</li></a>
+                            <a href="Rwanda.html"><li  class="active">Rwanda</li></a>
+                            
+                        </ul>
+                    </li>
+                    <li> <a href="book.html" >Booking</a></li>
+                    <li><a href="ideas.html">Trip Ideas</a></li>
+                    <li class="dropdown"><a href="signup.html" class="contact-link"><button >Account</button></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="homepage">
+            <div class="banner">
+                <div class="left">
+                    <div class="triangle-up" id="rnd"></div>
+                    <div class="triangle-down" id="rnd2"></div>
+                    <div class="triangle-up2" id="rnd3"></div>
+                    <div class="triangle-down2" id="rnd4"></div>
+                </div>
+                <div class="text" style="font-size: 4rem;">RWANDA</div>
+                <div class="left right">
+                    <div class="triangle-up" id="rnd"></div>
+                    <div class="triangle-down" id="rnd2"></div>
+                    <div class="triangle-up2" id="rnd3"></div>
+                    <div class="triangle-down2" id="rnd4"></div>
+                </div>
+            </div>
+            <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+            <div class="em">
+                <em><span>EXPLORE MORE ON NATIONAL PARKS, CAMPS, LODGES, BEACHES & RESORTS</span> </em>
+                <p>Review country information and travel tips on Tanzania i.e. geography, culture, history, <br> climate, tipping guide, what to pack and wear, entry requirements and more.</p>
+            </div>
+            <div class="buttons">
+                <div class="btn"><span>Parks & Reserves</span></div>
+            </div>
+            <ul class="parks">
+                <span><li>Volcanoes National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription">
+                    <span><u>Location</u></span>
+                    <p>Volcanoes National Park is in northwestern Rwanda, bordering Uganda’s Mgahinga Gorilla National Park and the Democratic Republic of Congo’s Virunga National Park. This park spans an area of approximately 160 square kilometers (62 square miles) and is situated near the town of Musanze, about 105 kilometers (65 miles) from Kigali, Rwanda’s capital.</p>
+     
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.836949748056!2d29.539686416132953!3d-1.4734062938516703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd516fc6ccdb63%3A0x290a3edab992c64f!2sVolcanoes%20National%20Park!5e0!3m2!1sen!2sus!4v1638510198874!5m2!1sen!2sus" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+
+                 
+                    <span><u>Wildlife</u></span>
+                    <p>Volcanoes National Park is best known for its population of endangered mountain gorillas, drawing visitors for gorilla trekking experiences. It is also home to golden monkeys, forest elephants, buffaloes, spotted hyenas, and a variety of bird species, including the Rwenzori turaco. The park’s dense rainforest and volcanic landscape support rich biodiversity.</p>
+                    <div class="img">
+                        <iframe width="1500" height="420" src="https://www.youtube.com/embed/i44Ooqzl7Dc" title="Volcanoes National Park Experiential Centre - Rwanda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                    <!-- <div class="activities">
+                        <div class="span">
+                            <span><u>Activities and Experiences</u></span>
+                        </div>
+                        <div class="acts">
+                         
+                            <div class="act">
+                                <img src="../assets/images/ballon.jpg" alt="">
+                                <div class="name">
+                                    <h2>Hot Air Balloons Rides</h2>
+                                </div>
+                            </div>
+                            <div class="act">
+                                <img src="../assets/images/walk.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Guided Nature Walk</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/photo" alt="">
+                                <div class="name">
+                                    <h2>Photography </h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/camping" alt="">
+                                <div class="name">
+                                    <h2>Camping Experiences</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/g2.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Game Drives </h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/culture.jpeg" alt="">
+                                <div class="name">
+                                    <h2> Cultural Experiences</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/horse.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Horseback Safaris</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/flight.jpg" alt="">
+                                <div class="name">
+                                    <h2>Scenic Flights</h2>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                </div>
+                <div class="accomodation" >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="https://www.andbeyond.com/wp-content/uploads/sites/5/Sabyinyo-rwanda-cottage-exterior.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Sabyinyo Silverback Lodge:</span>
+                            <p>Sabyinyo Silverback Lodge is a luxurious lodge located at the foot of the Virunga Volcanoes, offering exceptional views of the surrounding mountain landscape. The lodge features spacious and elegantly designed cottages with en-suite bathrooms, private verandas, and fireplaces. Guests can enjoy gourmet meals at the lodge’s restaurant, which serves both local and international dishes. The lodge is known for its warm hospitality and personal service, and it provides a perfect base for gorilla trekking and other excursions in Volcanoes National Park.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Virunga Lodge:</span>
+                            <p>Virunga Lodge is a stunning lodge perched on a hilltop with panoramic views of the Virunga Volcanoes and the surrounding lakes. It offers luxury accommodations in cozy, well-appointed bandas, each with en-suite bathrooms, fireplaces, and a private terrace overlooking the breathtaking scenery. Guests can enjoy meals prepared with locally sourced ingredients at the lodge’s restaurant, and relax in the lounge area with a drink while enjoying the views. </p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="https://cdn.audleytravel.com/1050/749/79/15975686-banda-at-virunga-lodge.webp" alt="safari">
+                        </div>
+                    </div>
+              
+                </div>
+                <span><li class="amboseli">Akagera National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p>Located in southern Kenya at the foot of Mount Kilimanjaro, is renowned for its stunning landscapes and diverse wildlife, particularly its large herds of African elephants. The park features lush swamps and marshes that attract a variety of animals, including lions, giraffes, and numerous bird species, making it a haven for wildlife enthusiasts. Visitors can enjoy guided game drives, walking safaris, and cultural experiences with the local Maasai community, who coexist harmoniously with the wildlife. Best visited during the dry seasons from June to October, Amboseli offers breathtaking views, especially of Kilimanjaro, and a unique opportunity to engage with nature and culture in a remarkable setting.</p>
+     
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394303.0909944714!2d37.02081140423909!3d-2.6700109538255947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182362d2a0db2d7d%3A0x75fc1bc5d1f8e93b!2sAmboseli%20National%20Park!5e0!3m2!1sen!2ske!4v1630569534214!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Great Migration</u></span>
+                    <p>Million wildebeest, zebras, and gazelles across Tanzania's Serengeti and Kenya's Maasai Mara. This cycle, driven by seasonal rains and the search for food, spans over 1,800 miles and peaks in dramatic events like the Mara River crossing, where animals face strong currents and predators such as crocodiles.</p>
+                    <p>Typically occurring from June to October, this journey showcases survival and resilience, attracting photographers and tourists from around the world to witness one of Africa's "Seven Natural Wonders." The migration is a breathtaking testament to nature’s cycles and the wild beauty of the African savannah.</p>
+
+                    </p>
+                    <div class="img">
+                        <iframe width="1500" height="430" src="https://www.youtube.com/embed/DUxC7A3pPNg" title="A day in the life of a tour guide inside Akagera Park" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="https://www.africanparks.org/sites/default/files/teaser_image/2017-06/Ruzizi_Accommodations_0.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Magashi Camp:</span>
+                            <p>Magashi Camp is a luxurious, high-end lodge located in the northern part of Akagera National Park, offering an exclusive safari experience with a focus on both comfort and conservation. The camp features beautifully designed tents with en-suite bathrooms, private decks, and stunning views of Lake Rwanyakazinga and the surrounding plains. Guests can enjoy gourmet meals in the camp’s dining area, overlooking the lake, and participate in guided game drives, boat safaris, and birdwatching excursions. Magashi Camp is known for its personalized service and intimate atmosphere, </p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Ruzizi Tented Lodge:
+                            </span>
+                            <p>Ruzizi Tented Lodge offers a more intimate and eco-friendly experience with luxurious tented accommodations nestled along the banks of Lake Rwanyakazinga. The lodge features spacious, well-appointed tents with en-suite bathrooms, private verandas, and beautiful views of the lake and surrounding landscapes. Guests can enjoy a range of activities, including boat safaris, guided game drives, and birdwatching. </p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="https://www.africanparks.org/sites/default/files/styles/xl_1980_x_1335/public/teaser_image/2020-11/ANPTE038%40.jpg?itok=r8Zlx-Sb" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="samburu">Nyungwe Forest National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p> Nyungwe Forest National Park is located in southwestern Rwanda, near the border with Burundi. It spans over 1,015 square kilometers (392 square miles) of mountainous rainforest. The park is accessible from the city of Cyangugu, about 54 kilometers (34 miles) away, and is roughly 225 kilometers (140 miles) from Kigali.</p>
+     
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15971.255546441584!2d29.178302716126022!3d-2.4786402641816373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd59b3d75f1083%3A0xf409d8cc25d2baf4!2sNyungwe%20Forest%20National%20Park!5e0!3m2!1sen!2sus!4v1638510443124!5m2!1sen!2sus" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>Nyungwe Forest is famous for its primate species, including chimpanzees, Rwenzori colobus, and L’Hoest’s monkeys. The park also boasts over 300 bird species, as well as rare orchids, butterflies, and amphibians. Nyungwe is one of the oldest rainforests in Africa, supporting diverse flora and fauna in its unique ecosystem.</p>
+
+                    <div class="img">
+                        <iframe width="1500" height="430" src="https://www.youtube.com/embed/67vIqvDIKiY" title="Nyungwe National Park: Rwanda&#39;s Only UNESCO Heritage Site" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/amboc.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Luxury Villas</span>
+                            <p>Experience Amboseli in a luxury safari house with views of Mount Kilimanjaro, elegant suites, a private pool, and gourmet dining. Wake up to wildlife like elephants and lions nearby, and unwind with a sunset drink overlooking the savannah. This retreat offers both adventure and relaxation in an unforgettable setting.</p>
+                            <a href="signup.html">
+                                <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Rondavels</span>
+                            <p>This luxurious rondavel blends traditional African charm with modern comfort. Featuring a thatched roof, hand-carved accents, and open-plan interiors, it offers cozy seating, plush bedding, and panoramic views. Relax on the private deck, enjoying starlit skies and the sounds of nature—an elegant, authentic African retreat.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/rondavel.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="amboseli">Kigali City Park </li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p>Kigali City Park is situated within the capital city of Rwanda, Kigali, located near the Kimihurura neighborhood. The park is close to key landmarks like the Kigali Convention Centre and the Parliament building, offering easy access for city residents and tourists. It's an urban oasis where visitors can enjoy green spaces and observe local wildlife in a serene environment.</p>
+
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15962.557799512438!2d30.070705156123207!3d-1.9551269648580009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca733e877eec9%3A0xe370e037e542f1a4!2sKigali%20City%20Park!5e0!3m2!1sen!2sus!4v1638535828967!5m2!1sen!2sus" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>Kigali City Park provides a green space that attracts various urban wildlife, especially bird species. Visitors can observe birds like sunbirds, African grey hornbills, and weavers, which thrive in the park's trees and shrubs. Small mammals, such as squirrels, can also be spotted, alongside diverse plant species that enhance the city's biodiversity. The park serves as an important habitat for urban flora and fauna, adding natural beauty to Kigali.</p>
+
+                    <div class="img">
+                        <iframe width="1500" height="430" src="https://www.youtube.com/embed/kKKehbu1v_I" title="Nyandungu Eco-Park | New Park in Kigali City | Conservation of Biodiversity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/lv.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Luxury Villas</span>
+                            <p>Luxury villas in game parks provide a private, high-end retreat amidst the wilderness, combining elegance with adventure. With exclusive amenities, breathtaking views, and spacious accommodations, these villas allow you to experience nature in comfort and style, offering the ultimate blend of luxury and proximity to wildlife.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Rondavels</span>
+                            <p>Rondavels are traditional, round, thatched-roof huts that provide a cozy, authentic stay in the heart of nature. Often located in scenic areas within game parks, these charming accommodations offer a simple yet comfortable space, blending cultural heritage with a close connection to the surrounding environment.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/rondavel.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="amboseli">Lake Kivu</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription">
+                    <span><u>Location</u></span>
+                    <p>Located along the Ewaso Nyiro River in northern Kenya, is famous for its unique wildlife and scenic landscapes. Known for the "Samburu Special Five"—Grevy's zebra, reticulated giraffe, Somali ostrich, gerenuk, and Beisa oryx—the reserve offers sightings of animals not commonly found in other parks. It’s also home to elephants, lions, cheetahs, and leopards, as well as a diverse range of bird species. The presence of the local Samburu people, known for their rich culture and colorful attire, adds to the unique experience, making Samburu a must-visit for an off-the-beaten-path safari adventure.</p>
+                    <a href="https://www.samburureserve.com" style="font-size: small;">Visit official Website</a>
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15969.392838301826!2d29.26749461612692!3d-2.349118464436544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd7b893bd7e69d%3A0x7468ccf3b8587a58!2sLake%20Kivu!5e0!3m2!1sen!2sus!4v1638510569748!5m2!1sen!2sus" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>While Lake Kivu itself is not a wildlife reserve, its shores are home to a variety of birds, such as kingfishers, cormorants, and fish eagles. The lake supports fish species including tilapia and is known for its scenic beauty and rich surrounding vegetation. Its shores provide habitats for small mammals and reptiles, adding to the natural allure of the area.</p>
+                    <div class="img">
+                        <iframe width="1500" height="420" src="https://www.youtube.com/embed/vIRZEBJx324" title="Lake Kivu&#39;s Playful Bats in Rwanda Defy Sleep Norms!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/lv.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Luxury Villas</span>
+                            <p>Luxury villas in game parks provide a private, high-end retreat amidst the wilderness, combining elegance with adventure. With exclusive amenities, breathtaking views, and spacious accommodations, these villas allow you to experience nature in comfort and style, offering the ultimate blend of luxury and proximity to wildlife.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Rondavels</span>
+                            <p>Rondavels are traditional, round, thatched-roof huts that provide a cozy, authentic stay in the heart of nature. Often located in scenic areas within game parks, these charming accommodations offer a simple yet comfortable space, blending cultural heritage with a close connection to the surrounding environment.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/rondavel.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                
+            <div style="margin-top: 5%; height: 4vh;"></div>
+        </ul>
+              
+        </div>    
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+</body>
+<script src="script.js"></script>
+</html>

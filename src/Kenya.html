@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPG</title>
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="body kenya-body">
+        <nav id="nav">
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="" srcset="" >
+            </div>
+            <div class="links">
+                <ul id="links">
+                    <li> <a href="index.html"> Home</a></li>
+                    <li class="dropdown"><a href="#"   class="active">Travel Guide</a>
+                        <ul class="dropdown-content">
+                            <a href="Kenya.html"><li class="active">Kenya</li></a>
+                            <a href="Tanzania.html"><li>Tanzania</li></a>
+                            <a href="Botswana.html"><li >Botswana</li></a>
+                            <a href="SA.html"><li >South Africa</li></a>
+                            <a href="Namibia.html"><li>Namibia</li></a>
+                            <a href="Zambia.html"><li>Zambia</li></a>
+                            <a href="Rwanda.html"><li>Rwanda</li></a>
+                            
+                        </ul>
+                    </li>
+                    <li> <a href="book.html" >Booking</a></li>
+                    <li><a href="ideas.html">Trip Ideas</a></li>
+                    <li class="dropdown"><a href="signup.html" class="contact-link"><button >Account</button></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="homepage">
+            <div class="banner">
+                <div class="left">
+                    <div class="triangle-up"></div>
+                    <div class="triangle-down"></div>
+                    <div class="triangle-up2"></div>
+                    <div class="triangle-down2"></div>
+                </div>
+                <div class="text">KENYA</div>
+                <div class="left right">
+                    <div class="triangle-up"></div>
+                    <div class="triangle-down"></div>
+                    <div class="triangle-up2"></div>
+                    <div class="triangle-down2"></div>
+                </div>
+            </div>
+            <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+            <div class="em">
+                <em><span>EXPLORE MORE ON NATIONAL PARKS, CAMPS, LODGES, BEACHES & RESORTS</span> </em>
+                <p>Review country information and travel tips on Kenya i.e. geography, culture, history, <br> climate, tipping guide, what to pack and wear, entry requirements and more.</p>
+            </div>
+            <div class="buttons">
+                <div class="btn"><span>Parks & Reserves</span></div>
+            </div>
+            <ul class="parks">
+                <span><li>Maasai Mara National Reserve</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription">
+                    <span><u>Location</u></span>
+                    <p>Masai Mara National Reserve is located in south west Kenya and is a vast scenic expanse of gently rolling African savannah plains measuring 1510 square kilometers in area and bordering the Serengeti National Park in Tanzania to the south. Masai Mara is a unique wildlife conservation haven famous for its spectacular natural diversity of wildlife and is the premier Kenya Safari location in East Africa, offering visitors numerous reasons to visit this animal paradise. Large numbers of Lions, Cheetah, Elephant, Rhino, African Buffalo, Wildebeest, Giraffe, Zebra and many more animals are found in the park in their natural habitat, unconfined and free to roam the vast Kenyan wilderness stretching for miles on end.</p>
+                    <a href="https://www.masaimara.travel" style="font-size: small; text-decoration: none;">Visit Official Website</a>
+     
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31530.933147964466!2d34.90883939421591!3d-1.4066580739302045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d41bfeafdfbcdf%3A0x92491cb1d9e3bacc!2sMaasai%20Mara%20National%20Reserve!5e0!3m2!1sen!2ske!4v1695823352123!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+
+                 
+                    <span><u>Big Five</u></span>
+                    <p>The Maasai Mara offers visitors various activities such as game drives, guided nature walks, hot-air balloon safaris, and cultural visits to Maasai villages. These cultural tours provide insights into the Maasai people's traditional customs, colorful clothing, and dances. With its luxurious lodges, tented camps, and camping sites, the reserve caters to a wide range of travelers, from budget-conscious adventurers to luxury-seeking guests. Maasai Mara’s popularity and rich wildlife diversity make it an essential destination for anyone looking to experience the best of African wildlife and culture.</p>
+                    <div class="img">
+                        <img src="../assets/images/big3" alt="" srcset="">
+                        <img src="../assets/images/lion.jpg" alt="" srcset="">
+                    </div>
+                 
+                    <!-- <div class="activities">
+                        <div class="span">
+                            <span><u>Activities and Experiences</u></span>
+                        </div>
+                        <div class="acts">
+                         
+                            <div class="act">
+                                <img src="../assets/images/ballon.jpg" alt="">
+                                <div class="name">
+                                    <h2>Hot Air Balloons Rides</h2>
+                                </div>
+                            </div>
+                            <div class="act">
+                                <img src="../assets/images/walk.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Guided Nature Walk</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/photo" alt="">
+                                <div class="name">
+                                    <h2>Photography </h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/camping" alt="">
+                                <div class="name">
+                                    <h2>Camping Experiences</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/g2.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Game Drives </h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/culture.jpeg" alt="">
+                                <div class="name">
+                                    <h2> Cultural Experiences</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/horse.jpeg" alt="">
+                                <div class="name">
+                                    <h2>Horseback Safaris</h2>
+                                </div>
+                            </div> <div class="act">
+                                <img src="../assets/images/flight.jpg" alt="">
+                                <div class="name">
+                                    <h2>Scenic Flights</h2>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                </div>
+                <div class="accomodation" >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/mara.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Mara Serena Safari Lodge:</span>
+                            <p>Mara Serena Safari Lodge is situated on a hilltop offering stunning panoramic views of the Mara River and the vast Mara plains. The lodge offers an exceptional blend of luxury and authentic safari experiences, making it perfect for game drives, hot air balloon safaris, and cultural Maasai village visits. The lodge features elegantly designed rooms with Maasai-inspired decor, each with its own private balcony to enjoy the surrounding wildlife. With an outdoor pool, restaurant, and bar, Mara Serena ensures comfort while being immersed in the wild.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Beyond Kichwa Tembo Tented Camp</span>
+                            <p>Located at the edge of the Maasai Mara Reserve, &Beyond Kichwa Tembo Tented Camp offers a luxurious, tented safari experience in the heart of the Mara Triangle. Guests enjoy personalized game drives, night safaris, and walking tours, all while staying in spacious, elegant tents with en-suite bathrooms. </p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/kischwa.jpg" alt="safari">
+                        </div>
+                    </div>
+              
+                </div>
+                <span><li class="amboseli">Nairobi National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p>Nairobi National Park is located just 7 kilometers (about 4 miles) south of Nairobi's city center, making it the closest national park to a capital city in the world. The park covers an area of approximately 117 square kilometers (45 square miles) and is bordered by the Nairobi National Park East Road and the Nairobi River to the east. It features a variety of ecosystems, including savannah, wetlands, and grasslands, which support a diverse range of wildlife.</p>
+                    <a href="https://www.kws.go.ke/nairobi-national-park" style="font-size: small; text-decoration: none;">Visit Official Website</a>
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.4462774288497!2d36.83079214797008!3d-1.3626589625247737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17bc3cfdf95f%3A0xe86b34e3c6e1d245!2sNairobi%20National%20Park!5e0!3m2!1sen!2ske!4v1662994367850!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Ecosystem</u></span>
+                    <p>Nairobi National Park is home to a surprising variety of wildlife despite its proximity to the city. The park is famous for its populations of black and white rhinoceroses, which are part of conservation efforts to protect these endangered species. Visitors can also encounter lions, giraffes, zebras, buffaloes, and various antelope species, such as Thomson's gazelle and impala. The park's diverse ecosystems support over 100 species of mammals and more than 400 species of birds, making it a haven for birdwatchers as well. Notable bird species include ostriches, eagles, and various waterfowl that can be seen around the park's wetlands. The unique combination of wildlife and urban backdrop makes Nairobi National Park a remarkable destination for both tourists and locals.</p>
+
+                    </p>
+                    <div class="img">
+                        <iframe width="1500" height="420" src="https://www.youtube.com/embed/D_TfMNiNK9w" title="Nairobi National Park, Kenya  [Amazing Places 4K]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/manor.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Giraffe Manor</span>
+                            <p>Giraffe Manor is a boutique hotel located in the Lang'ata area, a short drive from Nairobi National Park. Famous for its resident herd of Rothschild giraffes, the manor offers a unique experience where guests can interact with these gentle giants. The giraffes often visit the windows, allowing guests to feed and take photos with them. The property is beautifully designed, offering an elegant and tranquil retreat with lush gardens. Breakfast with giraffes at your window is one of the highlights.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Ole Sereni Hotel</span>
+                            <p>Ole Sereni Hotel is located on the edge of Nairobi National Park, offering guests stunning views of the park and its wildlife. This upscale hotel is ideal for travelers who want to experience the charm of a safari while staying close to Nairobi’s urban amenities. Guests can spot wildlife such as giraffes, zebras, and antelopes from the hotel’s terraces and even while dining. The hotel offers a variety of rooms, an outdoor pool, a spa, and a rooftop restaurant with panoramic views.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/ole.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="samburu">Tsavo East National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p>Tsavo East National Park is located in southeastern Kenya, approximately 150 kilometers (93 miles) from Nairobi. It covers an area of about 11,747 square kilometers (4,536 square miles), making it one of the largest national parks in Kenya. The park is situated near the town of Voi and is bordered by the Tsavo West National Park to the west. It features diverse landscapes, including open savannahs, thorny bushlands, and riverine forests along the Tsavo River</p>     
+                    <a href="https://www.tsavopark.com" style="font-size: small; text-decoration: none;">Visit Official Website</a>
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31531.996330947126!2d38.19447131461054!3d-2.807086799233581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18261d4b647cbf53%3A0xa65866bd18d50ca5!2sTsavo%20East%20National%20Park!5e0!3m2!1sen!2ske!4v1662992185831!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>Tsavo East National Park boasts an incredible diversity of wildlife, making it one of Kenya's premier safari destinations. The park is particularly famous for its large herds of elephants, which thrive in the vast open savannahs. Lions can often be seen lounging in the shade or hunting in the tall grass, while leopards, though more elusive, inhabit the wooded areas. Buffaloes graze in herds, and various antelope species, including Grant's gazelles and impalas, are abundant throughout the park. Additionally, Tsavo East is home to an array of unique wildlife, such as Rothschild's giraffes and Burchell's zebras, creating a vibrant ecosystem. Bird enthusiasts will also find over 500 species of birds, ranging from raptors to colorful ground birds, making the park a haven for avifauna. This rich biodiversity ensures that visitors to Tsavo East National Park experience the thrill of encountering a wide variety of animals in their natural habitats.</p>
+                    <div class="img">
+                        <img src="../assets/images/tsavo" alt="" srcset="">
+                        <img src="../assets/images/tsavo1" alt="" srcset="">
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/amboc.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Satao Elerai Camp:</span>
+                            <p>Satao Elerai Camp is a luxury tented camp located in the Elerai Conservancy, just outside the eastern edge of Tsavo East National Park. This camp offers an exclusive safari experience with stunning views of Mount Kilimanjaro and the park’s abundant wildlife. Guests can enjoy spacious, luxurious tents with private verandas, en-suite bathrooms, and exceptional service. Activities include game drives, bird watching, and visits to nearby Maasai communities.</p>
+                            <a href="signup.html">
+                                <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Voi Wildlife Lodge</span>
+                            <p>Located on the outskirts of Tsavo East National Park, Voi Wildlife Lodge offers spectacular views of the park and its surrounding landscapes. The lodge is an excellent option for those looking for a more accessible and family-friendly stay. The lodge’s rooms and cottages are well-equipped with modern amenities and have private balconies overlooking the park, providing fantastic opportunities to spot wildlife.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/satao.webp" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="amboseli">Amboseli National Park</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription"  >
+                    <span><u>Location</u></span>
+                    <p>Located in southern Kenya at the foot of Mount Kilimanjaro, is renowned for its stunning landscapes and diverse wildlife, particularly its large herds of African elephants. The park features lush swamps and marshes that attract a variety of animals, including lions, giraffes, and numerous bird species, making it a haven for wildlife enthusiasts. Visitors can enjoy guided game drives, walking safaris, and cultural experiences with the local Maasai community, who coexist harmoniously with the wildlife. Best visited during the dry seasons from June to October, Amboseli offers breathtaking views, especially of Kilimanjaro, and a unique opportunity to engage with nature and culture in a remarkable setting.</p>
+     
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394303.0909944714!2d37.02081140423909!3d-2.6700109538255947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182362d2a0db2d7d%3A0x75fc1bc5d1f8e93b!2sAmboseli%20National%20Park!5e0!3m2!1sen!2ske!4v1630569534214!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>
+                        Amboseli National Park is renowned for its large elephant herds, including some of Africa’s biggest tuskers, set against the dramatic backdrop of Mount Kilimanjaro. The park also hosts lions, cheetahs, buffalo, Maasai giraffes, and abundant zebras and wildebeests grazing on the plains. Amboseli’s wetlands attract hippos and a vibrant array of birdlife, including flamingos and African fish eagles. Smaller species like gazelles, baboons, and vervet monkeys add to the park’s rich biodiversity, making it a top destination for wildlife enthusiasts and photographers alike.</p>
+
+                    </p>
+                    <div class="img">
+                        <img src="../assets/images/ambo.jpg" alt="" srcset="">
+                        <img src="../assets/images/maasai.jpeg.jpeg" alt="" srcset="">
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="../assets/images/amb.jpg" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Amboseli Serena Safari Lodge</span>
+                            <p>Amboseli Serena Safari Lodge is a luxury lodge located in the heart of Amboseli National Park, offering stunning views of Mount Kilimanjaro and the vast plains below. The lodge’s unique Maasai-inspired design blends traditional culture with modern comforts. Guests can enjoy spacious rooms and suites, each with a private terrace, as well as a range of activities including game drives, nature walks, and Maasai village visits. The lodge features a swimming pool, a restaurant with panoramic views, and a bar where guests can unwind after a day of safari.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Ol Tukai Lodge:</span>
+                            <p>Ol Tukai Lodge is one of the premier accommodations in Amboseli, offering a stunning view of Mount Kilimanjaro from almost every corner of the lodge. The lodge is known for its luxurious yet rustic atmosphere, providing guests with comfortable rooms, many of which have balconies overlooking the park. The lodge’s location near Amboseli's wetlands ensures fantastic game viewing opportunities, especially for elephants, which are often seen grazing near the lodge.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="../assets/images/Ol.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                <span><li class="amboseli">Samburu National Reserve</li></span>
+                <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+                <div class="sections">
+                    <span class="desc active" onclick="activate(this)" id="description">DESCRIPTION</span>
+                    <span class="accom" onclick="activate(this)" id="accomodation">ACCOMODATION</span>
+                </div>
+                <div class="decription">
+                    <span><u>Location</u></span>
+                    <p>Located along the Ewaso Nyiro River in northern Kenya, is famous for its unique wildlife and scenic landscapes. Known for the "Samburu Special Five"—Grevy's zebra, reticulated giraffe, Somali ostrich, gerenuk, and Beisa oryx—the reserve offers sightings of animals not commonly found in other parks. It’s also home to elephants, lions, cheetahs, and leopards, as well as a diverse range of bird species. The presence of the local Samburu people, known for their rich culture and colorful attire, adds to the unique experience, making Samburu a must-visit for an off-the-beaten-path safari adventure.</p>
+                    <a href="https://www.samburureserve.com" style="font-size: small;">Visit official Website</a>
+                    <div class="map">
+                        <div class="span" style="margin-bottom: 1rem;" >
+                            <span ><u>Interactive Map</u></span>
+                        </div>
+                        <div class="iframe">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394303.0909944714!2d37.02081140423909!3d-2.6700109538255947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182362d2a0db2d7d%3A0x75fc1bc5d1f8e93b!2sAmboseli%20National%20Park!5e0!3m2!1sen!2ske!4v1630569534214!5m2!1sen!2ske" 
+                            class="iframe"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                    <span><u>Wildlife</u></span>
+                    <p>
+                        Samburu National Reserve is home to a remarkable variety of wildlife, including species unique to the region. The "Samburu Special Five"—Grevy's zebra, reticulated giraffe, Somali ostrich, gerenuk, and Beisa oryx—are highlights of the reserve, as they are rare and not commonly found in other parks. Additionally, Samburu is populated by large elephant herds, as well as big cats like lions, cheetahs, and leopards. Other species include African buffalo, impalas, dik-diks, and waterbucks. The reserve’s riverine forests and savannah plains also attract over 450 bird species, making it a paradise for birdwatchers and wildlife enthusiasts alike.</p>
+
+                    </p>
+                    <div class="img">
+                        <img src="../assets/images/samburu.jpg" alt="" srcset="">
+                        <img src="../assets/images/samburu2.jpg" alt="" srcset="">
+                    </div>
+                 
+                </div>
+                <div class="accomodation active"  >
+                    <div class="lodges">
+                        <div class="img">
+                            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/7512747.jpg?k=36afc27f99e9915c2cb5690e19827e5f5f558bec453f5010894c9de06f98adb8&o=&hp=1" alt="safari">
+                        </div>
+                        <div class="details">
+                            <span>Samburu Intrepid Camp:</span>
+                            <p>Samburu Intrepid Camp offers a luxurious yet rustic safari experience set in the heart of the Samburu National Reserve. The camp consists of spacious, elegantly designed tents with private decks overlooking the Ewaso Nyiro River, where guests can often spot wildlife such as elephants, giraffes, and various bird species. The camp offers game drives, bush walks, and cultural visits to the nearby Samburu villages. Known for its eco-friendly design and exceptional service, Samburu Intrepid Camp provides an intimate experience with a true connection to nature, making it perfect for those seeking luxury in the wild.</p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lodges">
+                        <div class="details">
+                            <span>Sasaab Lodge:</span>
+                            <p>Sasaab Lodge is an exclusive luxury retreat set along the banks of the Ewaso Nyiro River, offering panoramic views of the Samburu Reserve. The lodge features beautiful stone and thatch buildings with 9 spacious suites, each with its own plunge pool, private terrace, and stunning views of the river and surrounding landscapes. The lodge is designed with a strong focus on local culture, blending traditional Samburu design with modern luxury. </p>
+                            <a href="signup.html">
+                               <button>Book A Room</button>
+                            </a>
+                        </div>
+                        <div class="img">
+                            <img src="https://www.thesafaricollection.com/wp-content/uploads/2021/05/spa-at-sasaab.jpg" alt="safari">
+                        </div>
+                    </div>
+                </div>
+                
+            </ul>
+            <div style="margin-top: 5%; height: 4vh;"></div>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+</body>
+<script src="script.js"></script>
+</html>

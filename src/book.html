@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPG</title>
+    <link rel="icon"  sizes="64x64"  href="../assets/images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="body ">
+        <nav id="nav" class="nav">
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="" srcset="" >
+            </div>
+            <div class="links">
+                <ul id="links">
+                    <li> <a href="index.html"  > Home</a></li>
+                    <li class="dropdown"><a href="#">Travel Guide</a>
+                        <ul class="dropdown-content">
+                            <a href="Kenya.html"><li>Kenya</li></a>
+                            <a href="Tanzania.html"><li>Tanzania</li></a>
+                            <a href="Botswana.html"><li>Botswana</li></a>
+                            <a href="SA.html"><li>South Africa</li></a>
+                            <a href="Namibia.html"><li>Namibia</li></a>
+                            <a href="Zambia.html"><li>Zambia</li></a>
+                            <a href="Rwanda.html"><li>Rwanda</li></a>
+                            
+                        </ul>
+                    </li>
+                    <li> <a href="book.html" class="active">Booking</a></li>
+                    <li><a href="ideas.html">Trip Ideas</a></li>
+                    <li class="dropdown"><a href="signup.html" class="contact-link"><button >Account</button></a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="bookHome">
+            <div class="booktop">
+                <div class="left">
+                    <p>TechPro Tour Guide</p> 
+                    <p>|</p>
+                    <p>Emmanuel Siele</p>
+                </div>
+                <div class="right">
+                    <p>Report Corruption</p>
+                    <p>|</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="bookpage">
+               <h2>TECHPRO TRAVELS BOOKNG SERVICES</h2> 
+                <P>Reserve Your Dream Journey Now!</P>
+                <p style="font-size: 1rem; color: rgb(255, 255, 255); margin-top: 3%;">Pay on Arrival </p>
+                
+            </div>
+        
+            <div class="bookBanner">
+                <div class="header">
+                    <h2>TechPro Travels</h2>
+                    <h2>|</h2>
+                    <h2>Online Booking</h2>
+                    
+                </div>
+                
+                <div class="table">
+                    <table style="border-collapse: collapse; margin-left: 5%;">
+                        <tr>
+                            <th style="border: none; width: 10vw; padding: 0.5rem;">Country</th>
+                            <th style="border: none; width: 10vw; padding: 0.5rem;">Park/Reserve</th>
+                            <th style="border: none; width: 10vw; padding: 0.5rem;">Start Date</th>
+                            <th style="border: none; width: 10vw; padding: 0.5rem;">End Date</th>
+                        </tr>
+                        <tr>
+                            <td style="width: 4rem; padding-left: 2rem;">
+                                <select name="country" id="countrySelect1" data-select>
+                                    <option value="" disabled selected>Select a country</option>
+                                    <option value="Kenya" data-select-item>Kenya</option>
+                                    <option value="Tanzania" data-select-item>Tanzania</option>
+                                    <option value="Botswana" data-select-item>Botswana</option>
+                                    <option value="South Africa" data-select-item>South Africa</option>
+                                    <option value="Nambia" data-select-item>Namibia</option>
+                                    <option value="Zambia"data-select-item>Zambia</option>
+                                    <option value="Rwanda" data-select-item>Rwanda</option>
+                                </select>
+                            </td>
+                            <td style="width: 4rem; padding: 0.5rem;" Reserve>
+                                <select name="" id="parkSelect">
+                                    <option value="" disabled selected kenya>Select a park/reserve</option>
+
+                                </select>
+
+                            </td>
+                            <td style="width: 4rem; padding: 0.5rem;">
+                                <input type="date" name="startDate" id="startDate" required>
+                                
+                            </td>
+                            <td style="width: 4rem; padding: 0.5rem;" >
+                                <input type="date" name="endDate" id="endDate" required>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="bookBtn">Book A Room</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="results">
+             <div class="title">
+            <em>TourHub</em>
+            </div>
+            <hr style="border: none; border-top: 3px solid rgb(170, 164, 164);" />
+            <div class="responce" id="responce">
+                <h3><span>Your Search: </span></h3>
+                <div class="fetched">
+                    <div class="country">
+                        <i class="fa fa-check-square" aria-hidden="true"></i>
+                        <p>Country</p>
+                        <p style="font-weight: bold;">:</p>
+                        <p style="color: black;" id="CountryName"></p>
+                    </div>
+                    <div class="park">
+                        <i class="fa fa-check-square" aria-hidden="true"></i>
+                        <p>Park/Reserve</p>
+                        <p style="font-weight: bold;">:</p>
+                        <p style="color: black;">Kenya</p>
+                    </div>
+                    <div class="arrival">
+                        <i class="fa fa-check-square" aria-hidden="true"></i>
+                        <p>Arrival</p>
+                        <p style="font-weight: bold;">:</p>
+                        <p style="color: black;">Kenya</p>
+                    </div>
+                    <div class="exit">
+                        <i class="fa fa-check-square" aria-hidden="true"></i>
+                        <p>Depature</p>
+                        <p style="font-weight: bold;">:</p>
+                        <p style="color: black;">Kenya</p>
+                    </div>
+
+                    <h5></h5>
+                </div>
+                <hr style="border: none;margin-top: 0px; border-top: 2px solid rgb(170, 164, 164);" />
+                <div class="modify">
+                    <div class="top">
+                        <h3><span>Modify:</span></h3>
+                        <div class="plus">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+                    <div class="table close" >
+                        <table style="border-collapse: collapse; margin-left: 5%;">
+                            <tr>
+                                <th style="border: none; width: 10vw; padding: 0.5rem;">Country</th>
+                                <th style="border: none; width: 10vw; padding: 0.5rem;">Park/Reserve</th>
+                                <th style="border: none; width: 10vw; padding: 0.5rem;">Start Date</th>
+                                <th style="border: none; width: 10vw; padding: 0.5rem;">End Date</th>
+                            </tr>
+                            <tr>
+                                <td style="width: 4rem; padding-left: 2rem;">
+                                    <select name="country" id="countrySelect1">
+                                        <option value="" disabled selected>Select a country</option>
+                                        <option value="KEN">Kenya</option>
+                                        <option value="TAN">Tanzania</option>
+                                        <option value="BOT">Botswana</option>
+                                        <option value="ZAF">South Africa</option>
+                                        <option value="NAM">Namibia</option>
+                                        <option value="ZAM">Zambia</option>
+                                        <option value="RWA">Rwanda</option>
+                                    </select>
+                                </td>
+                                <td style="width: 4rem; padding: 0.5rem;">
+                                    <select name="park" id="parkSelect">
+                                        <option value="" disabled selected>Select a park/reserve</option>
+                                        <option value="MAASAI_MARA">Maasai Mara</option>
+                                        <option value="SERENGETI">Serengeti</option>
+                                        <option value="CHOBE">Chobe</option>
+                                        <option value="KRUGER">Kruger National Park</option>
+                                        <option value="ETOSHA">Etosha National Park</option>
+                                        <option value="ZAMBIA_PARK">Zambia National Park</option>
+                                        <option value="AKAGERA">Akagera National Park</option>
+                                    </select>
+                                </td>
+                                <td style="width: 4rem; padding: 0.5rem;">
+                                    <input type="date" name="startDate" required>
+                                    
+                                </td>
+                                <td style="width: 4rem; padding: 0.5rem;">
+                                    <input type="date" name="endDate" required>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="bookBtn">Book A Room</div>
+                    </div>
+                </div>
+                <div class="final">
+                    <div class="title">
+                        <p>Kenya</p>
+                        <p>-</p>
+                        <p>Maasai Mara</p>
+                    </div>
+                    <div class="finalBody">
+                        <div class="details">
+                            <table class="flight-table left">
+                                <thead>
+                                    <tr class="tr">
+                                        <th colspan="3">FIRST CLASS </th>
+                                    </tr>
+                                 
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-user"></i></td>
+                                        <td>ADULTS</td>
+                                        <td>KSH 13,800</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-child"></i></td>
+                                        <td>CHILDREN (3 - 11 YRS)</td>
+                                        <td>KSH 10,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-child"></i></td>
+                                        <td>CHILDREN (BELOW 3 YRS)</td>
+                                        <td>KSH 1000</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3" class="departure"><i class="fas fa-calendar-day"></i>  ARRIVAL: 20/10/2024</td>
+                                    </tr>
+                                </tfoot>
+                                <div class="arrival"></div>
+                            </table>
+                    
+                            <table class="flight-table">
+                                <thead>
+                                    <tr class="tr">
+                                        <th colspan="3">REGULAR</th>
+                                    </tr>
+                                  
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-user"></i></td>
+                                        <td>ADULTS</td>
+                                        <td>KSH 8700</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-child"></i></td>
+                                        <td>CHILDREN (3 - 11 YRS)</td>
+                                        <td>KSH 6500</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon"><i class="fas fa-child"></i></td>
+                                        <td>CHILDREN (BELOW 3 YRS)</td>
+                                        <td>KSH 1000</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3" class="arrival"><i class="fas fa-calendar-check"></i> DEPATURE: 02/11/2024</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="budget">
+                            <div class="header">
+                                <span>Kenya</span>
+                                <p>Maasai Mara</p>
+                            </div>
+                            <div class="draft">
+                                <div class="d1">
+                                    <div class="adults">
+                                        <p>ADULTS</p>
+                                        <select name="" id="tourist" class="selectAdult">
+                                            <option value="" disabled selected>0</option>
+                                            <option value="2">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                    </div>
+                                    <div class="adults">
+                                        <p>CHILDREN(12-17YRS)</p>
+                                        <select name="" id="tourist" class="selectChild">
+                                            <option value="" disabled selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                    </div>
+                                    <div class="adults">
+                                        <p>CHILDREN(3-11YRS)</p>
+                                        <select name="" id="tourist" class="selectKid">
+                                            <option value="" disabled selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                                <div class="d2">
+                                    <div class="type">
+                                        <p>CATEGORY</p>
+                                        <select name="category" id="category" class="Rcategory" onclick="submit()">
+                                            <option value="" disabled selected>Category</option>
+                                            <option value="Regular">Regular</option>
+                                            <option value="First Class">First Class</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d3">
+                                    <h4>TOTAL :</h4>
+                                    <p  id="total"></p>
+                                </div>
+                                <div class="d4">
+                                    <button>Book A Room</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <footer>
+        <div class="footer">
+            <div class="details">
+                <img src="../assets/images/logo.png" alt="">
+               <span><em>TechPro Tour Guide</em></span> 
+                <p>A community tech business that <br> designs and sells websites for all needs <br>from personal blogs to large business platforms <br>offering affordable options and custom solutions to boost online presence.</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=61565888367260">
+                          <div class="dollar-border">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </div>
+                    </a>
+                    <a href="https://www.instagram.com/billy_trilly_254?igsh=YzljYTk1ODg3Zg==">
+                        <div class="dollar-border">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+                   <a href="https://x.com/manusiele2?t=Nu4pMZB9ZzIvAQItx5cEzQ&s=09">
+                    <div class="dollar-border">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                   </a>
+                   <a href="mailto:manusiele254@gmail.com"> 
+                    <div class="dollar-border">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                   </a>
+                    <a href="https://github.com/manusiele">
+                        <div class="dollar-border">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </a>
+                    <a href="https://x.com/manusiele2?t=Nu4pMZB9ZzIvAQItx5cEzQ&s=09">
+                        <div class="dollar-border">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </a>
+                    <a href=" https://www.tiktok.com/@manusiele" target="_blank">
+                        <div class="dollar-border">
+                            <i class="fab fa-tiktok"></i>
+                        </div>   
+                    </a>
+                   
+                </div>
+                <hr/>
+                <div class="copyright">
+                    <em>Copyright @2024 <a href="#">TechPro Community</a> All Rights Reserved</em>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="script2.js"></script>
+</html>
